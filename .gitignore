@@ -1,0 +1,18 @@
+# OS-specific
+.DS_Store
+
+# Vagrant stuff
+boxes/*
+/.vagrant
+vagrant/.vagrant
+/website/docs/.vagrant
+/website/www/.vagrant
+/vagrant-spec.config.rb
+
+# Puppet modules
+/vagrant/modules/*
+!.keep
+
+# Archivos generados por mi modulo
+shared/www/project1/index.php
+shared/www/index.php

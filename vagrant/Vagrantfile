@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
   end
 
   # Pre-provisionado de módulos
-  # config.vm.provision "shell", path: "scripts/install_modules.sh"
+  config.vm.provision "shell", path: "scripts/install_modules.sh"
 
   # Provision de Puppet
   config.vm.provision :puppet do |puppet|

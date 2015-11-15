@@ -23,10 +23,10 @@ Vagrant.configure(2) do |config|
   # config.vm.provision "shell", path: "scripts/install_modules.sh"
 
   # Provision de Puppet
-  # config.vm.provision :puppet do |puppet|
-  #  puppet.manifests_path   = "environments/development/manifests"
-  #  puppet.manifest_file    = "site.pp"
-  #  puppet.module_path      = "modules"
-  #end
+  config.vm.provision :puppet do |puppet|
+    puppet.manifests_path   = "environments/development/manifests"
+    puppet.manifest_file    = "site.pp"
+    puppet.module_path      = "modules"
+  end
 
 end

@@ -14,7 +14,7 @@ puppet module install example42/php --modulepath $dir -version 2.0.25
 puppet module install puppetlabs/mysql --modulepath $dir -version 3.6.1
 
 # MY_MODULE
-git clone https://github.com/alexhoma/my_module.git $dir
+git clone https://github.com/alexhoma/alexhoma-custom_module.git $dir
 
 # MEMCACHED
 puppet module install saz/memcached --modulepath $dir -version 2.8.1

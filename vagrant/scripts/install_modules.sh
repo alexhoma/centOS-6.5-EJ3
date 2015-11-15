@@ -16,7 +16,5 @@ puppet module install puppetlabs/mysql --modulepath $dir -version 3.6.1
 # MY_MODULE
 git clone https://github.com/alexhoma/my_module.git $dir
 
-# EPEL
-puppet module install stahnma/epel --modulepath $dir -version 1.1.1
 # MEMCACHED
 puppet module install saz/memcached --modulepath $dir -version 2.8.1

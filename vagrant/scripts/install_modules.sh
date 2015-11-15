@@ -3,7 +3,7 @@
 # provisionemos vagrant, funcionará
 #LC_ALL="C"
 #export LC_ALL
-sudo localedef -i en_US -f UTF-8 en_US.UTF-8
+localedef -i en_US -f UTF-8 en_US.UTF-8
 
 # Pre-provisionamos vagrant, antes de provisionarlo
 # para añadir todos los módulos necesarios
